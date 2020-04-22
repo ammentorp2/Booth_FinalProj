@@ -4,7 +4,7 @@
 using namespace std;
 
 
-void convertToBinary(int n, int binaryNum []){
+void convertToBinary(int n, bool binaryNum []){
     int i = 0;
     while (n > 0) {
 
@@ -22,14 +22,14 @@ void textToBinary(char * theFile){
     if(file.is_open()){
         char ch;
         int val;
-        int binaryNum[7];   //7 bits (ascii goes up to 127)
+        bool binaryNum[8];   //7 bits (ascii goes up to 127)
         while(file.get(ch)) {
             //cout << ch;
             val = (int) ch;
             cout << val << " ";
             cout << endl;
             convertToBinary(val, binaryNum);
-            for (int i = 6; i >= 0; i--)
+            for (int i = 7; i >= 0; i--)
                 cout << binaryNum[i] << " ";
             cout << endl;
         }
@@ -49,9 +49,8 @@ int main(int argc, char *argv[]) {
     if(argc == 1)
         assert(false);
 
+    //TODO change which arg is the file
     textToBinary(argv[1]);
-
-    //TODO have some type of menu where user can input whether they wanna encrypt or decrypt
 
 
     return 0;

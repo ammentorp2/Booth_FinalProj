@@ -12,13 +12,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="545ab6ff-103e-4842-8dc3-0a45dbbfada4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testFile.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/BoothFinalProj.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/BoothFinalProj.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BoothFinalProj.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BoothFinalProj.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BoothFinalProj.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BoothFinalProj.dir/main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BoothFinalProj.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BoothFinalProj.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +43,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -73,7 +71,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587243762180</updated>
-      <workItem from="1587243765115" duration="4295000" />
+      <workItem from="1587243765115" duration="5188000" />
+      <workItem from="1587592674895" duration="293000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1587245182058</created>
@@ -82,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587245182058</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added text to binary feature">
+      <created>1587265264693</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587265264693</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,17 +96,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test" />
+    <MESSAGE value="Added text to binary feature" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added text to binary feature" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="425" y="23" key="CommitChangelistDialog2" timestamp="1587245179753">
+    <state x="425" y="23" key="CommitChangelistDialog2" timestamp="1587265262483">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="425" y="23" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1587245179753" />
-    <state x="580" y="183" key="FileChooserDialogImpl" timestamp="1587244043660">
+    <state x="425" y="23" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1587265262483" />
+    <state x="580" y="183" key="FileChooserDialogImpl" timestamp="1587419285731">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="580" y="183" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1587244043660" />
+    <state x="580" y="183" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1587419285731" />
     <state x="622" y="344" key="Github.CreateGistDialog" timestamp="1587244110140">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -109,33 +116,33 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="1065" y="325" key="Github.ShareDialog/0.0.1600.860@0.0.1600.860" timestamp="1587244553774" />
-    <state width="1556" height="217" key="GridCell.Tab.0.bottom" timestamp="1587263445870">
+    <state width="1556" height="217" key="GridCell.Tab.0.bottom" timestamp="1587419305786">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="217" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1587263445870" />
-    <state width="1556" height="217" key="GridCell.Tab.0.center" timestamp="1587263445870">
+    <state width="1556" height="217" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1587419305786" />
+    <state width="1556" height="217" key="GridCell.Tab.0.center" timestamp="1587419305786">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="217" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1587263445870" />
-    <state width="1556" height="217" key="GridCell.Tab.0.left" timestamp="1587263445870">
+    <state width="1556" height="217" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1587419305786" />
+    <state width="1556" height="217" key="GridCell.Tab.0.left" timestamp="1587419305786">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="217" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1587263445870" />
-    <state width="1556" height="217" key="GridCell.Tab.0.right" timestamp="1587263445870">
+    <state width="1556" height="217" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1587419305786" />
+    <state width="1556" height="217" key="GridCell.Tab.0.right" timestamp="1587419305786">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="217" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1587263445870" />
+    <state width="1556" height="217" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1587419305786" />
     <state x="301" y="60" key="SettingsEditor" timestamp="1587244025400">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="301" y="60" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1587244025400" />
-    <state x="392" y="161" key="Vcs.Push.Dialog.v2" timestamp="1587245193438">
+    <state x="392" y="161" key="Vcs.Push.Dialog.v2" timestamp="1587265274303">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="161" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1587245193438" />
-    <state x="609" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587265219353">
+    <state x="392" y="161" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1587265274303" />
+    <state x="609" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587592738520">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="609" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860@0.0.1600.860" timestamp="1587265219353" />
+    <state x="609" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860@0.0.1600.860" timestamp="1587592738520" />
   </component>
 </project>
