@@ -23,6 +23,7 @@ void textToBinary(char * theFile){
         char ch;
         int val;
         bool binaryNum[8];   //7 bits (ascii goes up to 127)
+        //TODO if we're reading in a bianry file then this needs to be updated
         while(file.get(ch)) {
             //cout << ch;
             val = (int) ch;
