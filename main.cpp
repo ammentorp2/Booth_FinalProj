@@ -62,7 +62,7 @@ int main(int argc, char *argv[]) {
         // Reading in image
         pictureFileName = argv[2];
         cin >> isPPM;
-        if (isPPM.compare("P6") == 0) {
+        if (isPPM.compare("P3") == 0) {
             cin >> width >> height >> maximumPixelValue;
         }
         else {
@@ -73,7 +73,7 @@ int main(int argc, char *argv[]) {
     else if (argc == 2) {
         //read in image and decode
         pictureFileName = argv[1];
-        if (isPPM.compare("P6") == 0) {
+        if (isPPM.compare("P3") == 0) {
             cin >> width >> height >> maximumPixelValue;
         }
         else {
