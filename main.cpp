@@ -42,6 +42,7 @@ void textToBinary(char * theFile){
 }
 
 
+
 int main(int argc, char *argv[]) {
     //Test
     //Test push
@@ -50,7 +51,37 @@ int main(int argc, char *argv[]) {
         assert(false);
 
     //TODO change which arg is the file
-    textToBinary(argv[1]);
+    // Variables
+    // What order are we reading them in???
+    string pictureFileName, isPPM;
+    int width, height, maximumPixelValue;
+    if (argc == 3) {
+        // Reading in text data
+        textToBinary(argv[1]);
+
+        // Reading in image
+        pictureFileName = argv[2];
+        cin >> isPPM;
+        if (isPPM.compare("P6") == 0) {
+            cin >> width >> height >> maximumPixelValue;
+        }
+        else {
+            cout << "This is not a PPM image.";
+            return 1;
+        }
+    }
+    else if (argc == 2) {
+        //read in image and decode
+        pictureFileName = argv[1];
+        if (isPPM.compare("P6") == 0) {
+            cin >> width >> height >> maximumPixelValue;
+        }
+        else {
+            cout << "This is not a PPM image.";
+            return 1;
+        }
+    }
+
 
 
     return 0;
