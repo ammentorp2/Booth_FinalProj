@@ -3,4 +3,4 @@ project(BoothFinalProj)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(BoothFinalProj main.cpp)
+add_executable(BoothFinalProj main.cpp decryption.cpp)

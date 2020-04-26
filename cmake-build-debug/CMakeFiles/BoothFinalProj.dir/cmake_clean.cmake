@@ -1,7 +1,10 @@
 file(REMOVE_RECURSE
-  "BoothFinalProj"
+  "BoothFinalProj.exe"
+  "BoothFinalProj.exe.manifest"
   "BoothFinalProj.pdb"
-  "CMakeFiles/BoothFinalProj.dir/main.cpp.o"
+  "CMakeFiles/BoothFinalProj.dir/decryption.cpp.obj"
+  "CMakeFiles/BoothFinalProj.dir/main.cpp.obj"
+  "libBoothFinalProj.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

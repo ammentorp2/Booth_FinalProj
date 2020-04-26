@@ -1,1 +1,3 @@
-/Library/Developer/CommandLineTools/usr/bin/c++  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/BoothFinalProj.dir/main.cpp.o  -o BoothFinalProj 
+"C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\BoothFinalProj.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\BoothFinalProj.dir/objects.a @CMakeFiles\BoothFinalProj.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\BoothFinalProj.dir/objects.a -Wl,--no-whole-archive  -o BoothFinalProj.exe -Wl,--out-implib,libBoothFinalProj.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\BoothFinalProj.dir\linklibs.rsp
