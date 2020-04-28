@@ -65,6 +65,7 @@ int main(int argc, char *argv[]) {
     if (argc == 1)
         assert(false);
 
+     cout<<"hello world!";
     //this is a encryption program
 
     //input file: image template, image destination, message file
