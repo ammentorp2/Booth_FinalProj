@@ -85,7 +85,7 @@
 		<Unit filename="C:/Users/Andrew/BoothFinalProj/decryption.cpp">
 			<Option target="BoothFinalProj"/>
 		</Unit>
-		<Unit filename="C:/Users/Andrew/BoothFinalProj/main.cpp">
+		<Unit filename="C:/Users/Andrew/BoothFinalProj/driver.cpp">
 			<Option target="BoothFinalProj"/>
 		</Unit>
 		<Unit filename="C:/Users/Andrew/BoothFinalProj/CMakeLists.txt">

@@ -6,13 +6,11 @@
 using namespace std;
 
 
-void convertToBinary(int n, bool binaryNum[]) {
+void convertToBinary(int n, int* arr, int size) {
     int i = 0;
     while (n > 0) {
-
-
         // storing remainder in binary array
-        binaryNum[i] = n & 1;
+        arr[i] = n & 1;
         n = n >> 1;
         i++;
     }
@@ -20,37 +18,6 @@ void convertToBinary(int n, bool binaryNum[]) {
 
 //We can change this return type/have way to store array
 //change return type into the bool array
-
-//TODO change the return bool array which contains all the char binary:)
-//TODO add null terminator(which is value 0) at the end of the array
-//TODO can pass one parameter int size by reference to know the size of binary array?
-// (8 bit for null terminator also included)
-void textToBinary(char *theFile, int &size) {
-    fstream file(theFile);
-
-    if (file.is_open()) {
-        char ch;
-        int val;
-        bool binaryNum[8];   //7 bits (ascii goes up to 127)
-        while (file.get(ch)) {
-            //cout << ch;
-            val = (int) ch;
-            cout << val << " ";
-            cout << endl;
-            convertToBinary(val, binaryNum);
-
-            for (int i = 7; i >= 0; i--)
-                cout << binaryNum[i] << " ";
-            cout << endl;
-
-        }
-    } else {
-        //crash program
-        assert(false);
-    }
-
-    file.close();
-}
 
 //TODO hide_binary function
 //it take the bool bit and hide to the last bit
@@ -65,6 +32,57 @@ int main(int argc, char *argv[]) {
     if (argc == 1)
         assert(false);
 
+    if(argc == 4){
+        //TODO logic for inserting message in file
+        //argv[1] source image
+        //argv[2] output image
+        //argv[3] txt file of stuff
+
+        FILE *file = fopen(argv[1],"rb");
+        int *num;
+        if (file != NULL) {
+            int val;
+
+            //TODO read in type and other attributes not in binary
+
+
+            //sorry for the foreign c code
+            //This the code for reading in the rgb values
+            while(fread(&val,sizeof(int),1,file) != 0) {
+                printf("Val is %d\n",val);
+                //Sorry had to make it int
+                num = new int[8];
+                //init to zero
+                for(int i = 0; i < 8; i++)
+                    num[i] = 0;
+                convertToBinary(val,num,8);
+
+                for(int i = 7; i >= 0; i--){
+                    cout << num[i] << " ";
+                }
+                cout << endl;
+            }
+            fclose(file);
+        } else {
+            //crash program
+            assert(false);
+        }
+
+    }
+    else if(argc == 3){
+        //TODO logic for decrypting file
+        //argv[1] image
+        //argv[2] result .txt file (We make one here)
+    }
+
+    //Testing the file reader
+    //the rb is read and binary
+
+
+
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
      cout<<"hello world!";
     //this is a encryption program
 
@@ -73,18 +91,18 @@ int main(int argc, char *argv[]) {
     char *image_dest_name = argv[2];
     char *text_name = argv[3];
 
-    ofstream image_s(image_temp_name);
+    ofstream image_s(image_src_name);
     ifstream image_d(image_dest_name);
     ifstream text(text_name);
 
     //read in the size
     string type;
-    int width, height, coor_size;
-    image_s >> type >> width >> height >> color_size;
+    int width, height, color_size;
+    image_d >> type >> width >> height >> color_size;
 
     //destination image should have same type, width, height
     //and color size
-    image_d << type << width << height << color_size;
+    image_s << type << width << height << color_size;
 
 
     //convert the text into binary

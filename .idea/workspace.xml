@@ -5,13 +5,27 @@
       <config projectName="BoothFinalProj" targetName="BoothFinalProj" />
     </generated>
   </component>
-  <component name="CMakeSettings">
+  <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="545ab6ff-103e-4842-8dc3-0a45dbbfada4" name="Default Changelist" comment="" />
+    <list default="true" id="545ab6ff-103e-4842-8dc3-0a45dbbfada4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/driver.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/BoothFinalProj.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/BoothFinalProj.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/BoothFinalProj.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/BoothFinalProj.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BoothFinalProj.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BoothFinalProj.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BoothFinalProj.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BoothFinalProj.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BoothFinalProj.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BoothFinalProj.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decryption.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/decryption.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,29 +36,22 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
-    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="20" />
-    <option name="y" value="43" />
-    <option name="width" value="1400" />
-    <option name="height" value="799" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1ajKra0v6W23hpW7VugQA1r6GT3" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cmake-build-debug" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -55,8 +62,16 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Andrew\BoothFinalProj" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Andrew\BoothFinalProj\cmake-build-debug" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration name="BoothFinalProj" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BoothFinalProj" TARGET_NAME="BoothFinalProj" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="BoothFinalProj" RUN_TARGET_NAME="BoothFinalProj">
+    <configuration name="BoothFinalProj" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BoothFinalProj" TARGET_NAME="BoothFinalProj" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="BoothFinalProj" RUN_TARGET_NAME="BoothFinalProj">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -73,9 +88,8 @@
       <option name="presentableId" value="Default" />
       <updated>1587243762180</updated>
       <workItem from="1587243765115" duration="5188000" />
-      <workItem from="1587592674895" duration="293000" />
-      <workItem from="1587758241108" duration="8000" />
-      <workItem from="1587758640450" duration="1514000" />
+      <workItem from="1587592674895" duration="4522000" />
+      <workItem from="1588105623808" duration="4621000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1587245182058</created>
@@ -91,22 +105,50 @@
       <option name="project" value="LOCAL" />
       <updated>1587265264693</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Made binary a bool array">
+      <created>1587593027304</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587593027304</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added todo comment">
+      <created>1587768656676</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587768656676</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added decryption cpp">
+      <created>1587873607762</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1587873607762</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test" />
     <MESSAGE value="Added text to binary feature" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added text to binary feature" />
+    <MESSAGE value="Made binary a bool array" />
+    <MESSAGE value="Added todo comment" />
+    <MESSAGE value="Added decryption cpp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added decryption cpp" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="425" y="23" key="CommitChangelistDialog2" timestamp="1587265262483">
+    <state x="567" y="231" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588108246492">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="425" y="23" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1587265262483" />
+    <state x="567" y="231" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860@0.0.1600.860" timestamp="1588108246492" />
+    <state x="425" y="23" key="CommitChangelistDialog2" timestamp="1587873602647">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="425" y="23" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1587873602647" />
     <state x="580" y="183" key="FileChooserDialogImpl" timestamp="1587419285731">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -135,17 +177,29 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1556" height="217" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1587419305786" />
+    <state x="152" y="66" key="MergeDialog" timestamp="1587768538000">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="152" y="66" key="MergeDialog/0.0.1600.860@0.0.1600.860" timestamp="1587768538000" />
+    <state x="512" y="144" key="MultipleFileMergeDialog" timestamp="1587768548074">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="512" y="144" key="MultipleFileMergeDialog/0.0.1600.860@0.0.1600.860" timestamp="1587768548074" />
     <state x="301" y="60" key="SettingsEditor" timestamp="1587244025400">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="301" y="60" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1587244025400" />
-    <state x="392" y="161" key="Vcs.Push.Dialog.v2" timestamp="1587265274303">
+    <state x="392" y="161" key="Vcs.Push.Dialog.v2" timestamp="1587873612097">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="161" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1587265274303" />
-    <state x="609" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587592738520">
+    <state x="392" y="161" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1587873612097" />
+    <state x="609" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588107209881">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="609" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860@0.0.1600.860" timestamp="1587592738520" />
+    <state x="609" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860@0.0.1600.860" timestamp="1588107209881" />
+    <state x="500" y="220" key="git4idea.merge.GitPullDialog" timestamp="1588107252281">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="500" y="220" key="git4idea.merge.GitPullDialog/0.0.1600.860@0.0.1600.860" timestamp="1588107252281" />
   </component>
 </project>

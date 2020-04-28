@@ -19,7 +19,7 @@ void convert_to_text(bool *message, int size, char *fileName);
 bool* extract_bit(char *image_name,int size);
 
 
-int main(int argc, char **argv){
+int decryptionMain(int argc, char **argv){
 
     char * image_name =argv[1];
     char * text_name = argv[2];

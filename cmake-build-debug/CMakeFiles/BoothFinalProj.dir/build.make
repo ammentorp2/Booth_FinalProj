@@ -56,18 +56,18 @@ include CMakeFiles/BoothFinalProj.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/BoothFinalProj.dir/flags.make
 
-CMakeFiles/BoothFinalProj.dir/main.cpp.obj: CMakeFiles/BoothFinalProj.dir/flags.make
-CMakeFiles/BoothFinalProj.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Andrew\BoothFinalProj\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BoothFinalProj.dir/main.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\BoothFinalProj.dir\main.cpp.obj -c C:\Users\Andrew\BoothFinalProj\main.cpp
+CMakeFiles/BoothFinalProj.dir/driver.cpp.obj: CMakeFiles/BoothFinalProj.dir/flags.make
+CMakeFiles/BoothFinalProj.dir/driver.cpp.obj: ../driver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Andrew\BoothFinalProj\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BoothFinalProj.dir/driver.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\BoothFinalProj.dir\driver.cpp.obj -c C:\Users\Andrew\BoothFinalProj\driver.cpp
 
-CMakeFiles/BoothFinalProj.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BoothFinalProj.dir/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Andrew\BoothFinalProj\main.cpp > CMakeFiles\BoothFinalProj.dir\main.cpp.i
+CMakeFiles/BoothFinalProj.dir/driver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BoothFinalProj.dir/driver.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Andrew\BoothFinalProj\driver.cpp > CMakeFiles\BoothFinalProj.dir\driver.cpp.i
 
-CMakeFiles/BoothFinalProj.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BoothFinalProj.dir/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Andrew\BoothFinalProj\main.cpp -o CMakeFiles\BoothFinalProj.dir\main.cpp.s
+CMakeFiles/BoothFinalProj.dir/driver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BoothFinalProj.dir/driver.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Andrew\BoothFinalProj\driver.cpp -o CMakeFiles\BoothFinalProj.dir\driver.cpp.s
 
 CMakeFiles/BoothFinalProj.dir/decryption.cpp.obj: CMakeFiles/BoothFinalProj.dir/flags.make
 CMakeFiles/BoothFinalProj.dir/decryption.cpp.obj: ../decryption.cpp
@@ -84,13 +84,13 @@ CMakeFiles/BoothFinalProj.dir/decryption.cpp.s: cmake_force
 
 # Object files for target BoothFinalProj
 BoothFinalProj_OBJECTS = \
-"CMakeFiles/BoothFinalProj.dir/main.cpp.obj" \
+"CMakeFiles/BoothFinalProj.dir/driver.cpp.obj" \
 "CMakeFiles/BoothFinalProj.dir/decryption.cpp.obj"
 
 # External object files for target BoothFinalProj
 BoothFinalProj_EXTERNAL_OBJECTS =
 
-BoothFinalProj.exe: CMakeFiles/BoothFinalProj.dir/main.cpp.obj
+BoothFinalProj.exe: CMakeFiles/BoothFinalProj.dir/driver.cpp.obj
 BoothFinalProj.exe: CMakeFiles/BoothFinalProj.dir/decryption.cpp.obj
 BoothFinalProj.exe: CMakeFiles/BoothFinalProj.dir/build.make
 BoothFinalProj.exe: CMakeFiles/BoothFinalProj.dir/linklibs.rsp
