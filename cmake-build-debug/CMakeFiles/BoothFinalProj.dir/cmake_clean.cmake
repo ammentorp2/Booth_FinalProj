@@ -2,7 +2,6 @@ file(REMOVE_RECURSE
   "BoothFinalProj.exe"
   "BoothFinalProj.exe.manifest"
   "BoothFinalProj.pdb"
-  "CMakeFiles/BoothFinalProj.dir/decryption.cpp.obj"
   "CMakeFiles/BoothFinalProj.dir/driver.cpp.obj"
   "libBoothFinalProj.dll.a"
 )
