@@ -11,11 +11,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="545ab6ff-103e-4842-8dc3-0a45dbbfada4" name="Default Changelist" comment="">
+    <list default="true" id="545ab6ff-103e-4842-8dc3-0a45dbbfada4" name="Default Changelist" comment="DONE!!! need documentation stuff">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/60929024571__40D946DE-982A-4EF7-AED0-04A1171D6534.pbm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/BoothFinalProj.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/BoothFinalProj.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BoothFinalProj.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BoothFinalProj.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/driver.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver.cpp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +83,7 @@
       <workItem from="1587592674895" duration="4522000" />
       <workItem from="1588105623808" duration="4621000" />
       <workItem from="1588136373618" duration="9108000" />
-      <workItem from="1588378056537" duration="3280000" />
+      <workItem from="1588378056537" duration="5208000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1587245182058</created>
@@ -126,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588186711448</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="DONE!!! need documentation stuff">
+      <created>1588382407952</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1588382407956</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,17 +147,18 @@
     <MESSAGE value="Added todo comment" />
     <MESSAGE value="Added decryption cpp" />
     <MESSAGE value="almost done!!!!&#10;need to debug" />
-    <option name="LAST_COMMIT_MESSAGE" value="almost done!!!!&#10;need to debug" />
+    <MESSAGE value="DONE!!! need documentation stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="DONE!!! need documentation stuff" />
   </component>
   <component name="WindowStateProjectService">
     <state x="567" y="231" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588108246492">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="567" y="231" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860@0.0.1600.860" timestamp="1588108246492" />
-    <state x="398" y="26" key="CommitChangelistDialog2" timestamp="1588186709943">
+    <state x="398" y="26" key="CommitChangelistDialog2" timestamp="1588390315993">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="398" y="26" key="CommitChangelistDialog2/0.0.1500.960@0.0.1500.960" timestamp="1588186709943" />
+    <state x="398" y="26" key="CommitChangelistDialog2/0.0.1500.960@0.0.1500.960" timestamp="1588390315993" />
     <state x="425" y="23" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1587873602647" />
     <state x="580" y="183" key="FileChooserDialogImpl" timestamp="1587419285731">
       <screen x="0" y="0" width="1600" height="860" />
@@ -195,18 +204,19 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="301" y="60" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1587244025400" />
-    <state x="368" y="180" key="Vcs.Push.Dialog.v2" timestamp="1588186734378">
+    <state x="368" y="180" key="Vcs.Push.Dialog.v2" timestamp="1588382423813">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="368" y="180" key="Vcs.Push.Dialog.v2/0.0.1500.960@0.0.1500.960" timestamp="1588186734378" />
+    <state x="368" y="180" key="Vcs.Push.Dialog.v2/0.0.1500.960@0.0.1500.960" timestamp="1588382423813" />
     <state x="392" y="161" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1587873612097" />
     <state x="609" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588107209881">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="609" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860@0.0.1600.860" timestamp="1588107209881" />
-    <state x="500" y="220" key="git4idea.merge.GitPullDialog" timestamp="1588107252281">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="469" y="246" key="git4idea.merge.GitPullDialog" timestamp="1588390190627">
+      <screen x="0" y="0" width="1500" height="960" />
     </state>
+    <state x="469" y="246" key="git4idea.merge.GitPullDialog/0.0.1500.960@0.0.1500.960" timestamp="1588390190627" />
     <state x="500" y="220" key="git4idea.merge.GitPullDialog/0.0.1600.860@0.0.1600.860" timestamp="1588107252281" />
   </component>
 </project>
