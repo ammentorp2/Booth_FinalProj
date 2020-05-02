@@ -1,3 +1,9 @@
+/**
+ * Booth Final Project
+ *
+ * This project can either encrypt a message in a txt file,
+ * or decrypt a message depending on what the user specifies
+ */
 #include <iostream>
 #include <fstream>
 #include <cassert>
@@ -5,13 +11,25 @@
 
 using namespace std;
 
+/**
+ * get_bit
+ *
+ * Function gets if the last bit is 1
+ *
+ * @param color
+ * @return
+ */
 bool get_bit(char color) {
     if (color & 1)
         return true;
     return false;
 }
 
-
+/**
+ * This function gets the number of bytes in the file
+ * @param fileName
+ * @return
+ */
 int getFileSize(char *fileName)
 {
     ifstream file(fileName, ifstream::in | ifstream::binary);
@@ -30,6 +48,13 @@ int getFileSize(char *fileName)
 
 //message is bool array extract from image
 //fileName is the text file name
+/**
+ * This function loads an array with 1s or 0s
+ * @param character
+ * @param size
+ * @param src
+ * @return
+ */
 char convert_to_character(bool *character, int size, ifstream &src) {
 
     //cout<<"\nconverting 8 character...\n";
@@ -59,6 +84,12 @@ char convert_to_character(bool *character, int size, ifstream &src) {
 
 
 //fix the little endian issue
+/**
+ * This function converts a number n to is binary representation
+ * @param n
+ * @param arr
+ * @param size
+ */
 void convertToBinary(char n, bool *arr, int size) {
     int i = size - 1;
     while (n > 0) {
@@ -74,6 +105,12 @@ void convertToBinary(char n, bool *arr, int size) {
 
 //it take the bool bit and hide to the last bit
 //of c
+/**
+ * This function hides a bit
+ * @param bit
+ * @param c
+ * @return
+ */
 char hide_binary(bool bit, char c) {
     if (c % 2 == 0) {
         if (bit) {
@@ -90,13 +127,12 @@ char hide_binary(bool bit, char c) {
 
 
 int main(int argc, char *argv[]) {
-    //Test
-    //Test push
-    //Just quit if only 1 arg
 
+    //Just quit if only 1 arg (the exe itself)
     if (argc == 1)
         assert(false);
 
+    //Encrypt
     if (argc == 4) {
 
         /*
@@ -110,12 +146,7 @@ int main(int argc, char *argv[]) {
         ofstream dest(argv[2], ios::binary);
         ifstream message(argv[3], ios::binary);
 
-
-
-
-
-
-        //logic for inserting message in file
+        //Get file data
         string type;
         int width, length, c_size;
         src >> type >> width >> length >> c_size;
@@ -129,9 +160,9 @@ int main(int argc, char *argv[]) {
 
         //cout<<"bit message is: "<<bit_message<<"\tpixel number: "<<width*length*3<<endl;
         //also write to the ofstream
+        //write file data to output file
         dest << type<<endl << width<<" " << length<<endl<< c_size;
 
-        //TODO calculate whether the image file is large enough to hide the message
         //find the size of message file(int bit)
         //if it is larger than width*length*3, then print error message exit the program
 
@@ -143,76 +174,56 @@ int main(int argc, char *argv[]) {
             char val;
 
             //I used fstream to skip the formating at the out of the loop
-//            //read in type and other attributes not in binary
-//            string type;
-//            int width, length,c_size;
 
-
-
-            //sorry for the foreign c code
             //This the code for reading in the rgb values
             //I used binary read for fstream instead sorry :)
             while (message.read(&val, sizeof(char))) {
 //                printf("Val is %d\n",val);
-                //Sorry had to make it int
-
-
-
 
                 num = new bool[8];
 
                 //init to zero
                 for (int i = 0; i < 8; i++)
                     num[i] = 0;
+                //Convert to binary
                 convertToBinary(val, num, 8);
 
 
-//                cout<<"\nthe char read in is: "<<val;
-//                cout<<"\tthe binary is: ";
-//                for(int i=0;i<8;i++)
-//                    cout<<num[i]<<" ";
-
-
+                //For each bit
                 for (int i = 0; i < 8; i++) {
                     //assume the src file will not exhausted
                     src.read(&color, sizeof(char));
+                    //Hide bit
                     new_color = hide_binary(num[i], color);
 
 
                     //write to the dest file
                     dest.write(&new_color, sizeof(char));
 
-                    //testing read in
-//                    cout<<"\n original color is : "<<(unsigned short)color;
-//                    cout<<"\tbit is: "<<num[i]<<"\t new color is"<<(unsigned short)new_color<<endl;
-
-
                 }
-
-
-                //fix memory leak
+                //fix memory leak, clear array
                 delete[]num;
             }
 
-            /*
-                 * terminate sign input to the dest image
-                 */
-
-            //cout<<"\nterminating message...\n";
+            //terminate sign input to the dest image
             for (int i = 0; i < 8; i++) {
+                //Get new color
                 new_color = hide_binary(0, color);
                 //cout<<"origin color is: "<<(int)color<<"\tcolor is: "<<(int)new_color<<endl;
+                //Write encrypted data
                 dest.write(&new_color, sizeof(char));
             }
 
             //if the source file didn't reach the end
             //keep read and write color into dest file
             while (!src.eof()) {
+                //Left over bits
                 src.read(&color, sizeof(char));
                 dest.write(&color, sizeof(char));
             }
 
 
+            //Close files
             src.close();
             dest.close();
             message.close();
@@ -221,50 +232,55 @@ int main(int argc, char *argv[]) {
             assert(false);
         }
 
-    } else if (argc == 3) {
+    }
+    //Decrypt the message
+    else if (argc == 3) {
 
+        //Src file
         ifstream src(argv[1], ios::binary);
+        //Output file of secret message
         ofstream text_file(argv[2], ios::binary);
 
 
         //skip format info
         string type;
+        //File data
         int width, length, c_size;
         src >> type >> width >> length >> c_size;
 
 
         bool terminate = false;
+        //While can process file AND not at end of text
         while (!src.eof() && !terminate) {
 
 
             //initialing character array
             bool *character = new bool[8];
+            //Init to false
             for (int i = 0; i < 8; i++) {
                 character[i] = 0;
             }
 
+            //Get character
             char val = convert_to_character(character, 8, src);
+            //End of text
             if (val == 0)
                 terminate = true;
 
+            //Write to text file
             text_file.write(&val, sizeof(char));
 
 
+            //clear array
             delete[]character;
         }
 
+        //close files
         src.close();
         text_file.close();
 
 
     }
-
-    //Testing the file reader
-    //the rb is read and binary
-
-
-
-
 
     return 0;
 }
