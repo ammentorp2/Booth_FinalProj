@@ -12,30 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="545ab6ff-103e-4842-8dc3-0a45dbbfada4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/meesage.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/BoothFinalProj.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/BoothFinalProj.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/BoothFinalProj.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/BoothFinalProj.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BoothFinalProj.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BoothFinalProj.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BoothFinalProj.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BoothFinalProj.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BoothFinalProj.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BoothFinalProj.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BoothFinalProj.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BoothFinalProj.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BoothFinalProj.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BoothFinalProj.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BoothFinalProj.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BoothFinalProj.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BoothFinalProj.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BoothFinalProj.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decryption.cpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/driver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/driver.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +81,8 @@
       <workItem from="1587243765115" duration="5188000" />
       <workItem from="1587592674895" duration="4522000" />
       <workItem from="1588105623808" duration="4621000" />
-      <workItem from="1588136373618" duration="8083000" />
+      <workItem from="1588136373618" duration="9108000" />
+      <workItem from="1588378056537" duration="3280000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1587245182058</created>
@@ -139,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587873607762</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="almost done!!!!&#10;need to debug">
+      <created>1588186711448</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1588186711448</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,16 +138,18 @@
     <MESSAGE value="Made binary a bool array" />
     <MESSAGE value="Added todo comment" />
     <MESSAGE value="Added decryption cpp" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added decryption cpp" />
+    <MESSAGE value="almost done!!!!&#10;need to debug" />
+    <option name="LAST_COMMIT_MESSAGE" value="almost done!!!!&#10;need to debug" />
   </component>
   <component name="WindowStateProjectService">
     <state x="567" y="231" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588108246492">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="567" y="231" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860@0.0.1600.860" timestamp="1588108246492" />
-    <state x="425" y="23" key="CommitChangelistDialog2" timestamp="1587873602647">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="398" y="26" key="CommitChangelistDialog2" timestamp="1588186709943">
+      <screen x="0" y="0" width="1500" height="960" />
     </state>
+    <state x="398" y="26" key="CommitChangelistDialog2/0.0.1500.960@0.0.1500.960" timestamp="1588186709943" />
     <state x="425" y="23" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1587873602647" />
     <state x="580" y="183" key="FileChooserDialogImpl" timestamp="1587419285731">
       <screen x="0" y="0" width="1600" height="860" />
@@ -174,25 +163,25 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="1065" y="325" key="Github.ShareDialog/0.0.1600.860@0.0.1600.860" timestamp="1587244553774" />
-    <state width="1458" height="40" key="GridCell.Tab.0.bottom" timestamp="1588185980945">
+    <state width="1458" height="40" key="GridCell.Tab.0.bottom" timestamp="1588254527779">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="40" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1588185980945" />
+    <state width="1458" height="40" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1588254527779" />
     <state width="1556" height="217" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1587419305786" />
-    <state width="1458" height="40" key="GridCell.Tab.0.center" timestamp="1588185980945">
+    <state width="1458" height="40" key="GridCell.Tab.0.center" timestamp="1588254527779">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="40" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1588185980945" />
+    <state width="1458" height="40" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1588254527779" />
     <state width="1556" height="217" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1587419305786" />
-    <state width="1458" height="40" key="GridCell.Tab.0.left" timestamp="1588185980943">
+    <state width="1458" height="40" key="GridCell.Tab.0.left" timestamp="1588254527778">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="40" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1588185980943" />
+    <state width="1458" height="40" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1588254527778" />
     <state width="1556" height="217" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1587419305786" />
-    <state width="1458" height="40" key="GridCell.Tab.0.right" timestamp="1588185980945">
+    <state width="1458" height="40" key="GridCell.Tab.0.right" timestamp="1588254527779">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="40" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1588185980945" />
+    <state width="1458" height="40" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1588254527779" />
     <state width="1556" height="217" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1587419305786" />
     <state x="152" y="66" key="MergeDialog" timestamp="1587768538000">
       <screen x="0" y="0" width="1600" height="860" />
@@ -206,9 +195,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="301" y="60" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1587244025400" />
-    <state x="392" y="161" key="Vcs.Push.Dialog.v2" timestamp="1587873612097">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="368" y="180" key="Vcs.Push.Dialog.v2" timestamp="1588186734378">
+      <screen x="0" y="0" width="1500" height="960" />
     </state>
+    <state x="368" y="180" key="Vcs.Push.Dialog.v2/0.0.1500.960@0.0.1500.960" timestamp="1588186734378" />
     <state x="392" y="161" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1587873612097" />
     <state x="609" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588107209881">
       <screen x="0" y="0" width="1600" height="860" />

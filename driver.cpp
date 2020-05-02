@@ -11,26 +11,47 @@ bool get_bit(char color) {
     return false;
 }
 
+
+int getFileSize(char *fileName)
+{
+    ifstream file(fileName, ifstream::in | ifstream::binary);
+
+    if(!file.is_open())
+    {
+        return -1;
+    }
+
+    file.seekg(0, ios::end);
+    int fileSize = file.tellg();
+    file.close();
+
+    return fileSize;
+}
+
 //message is bool array extract from image
 //fileName is the text file name
 char convert_to_character(bool *character, int size, ifstream &src) {
 
+    //cout<<"\nconverting 8 character...\n";
     for (int i = 0; i < size && !src.eof(); i++) {
         char color;
         src.read(&color, sizeof(char));
-
+        //cout<<"the color is: "<<color<<"\tthe last bit is: "<<get_bit(color)<<endl;
         character[i] = get_bit(color);
     }
 
     char c = 0;
     //convert the bool array into a char
-    for (int i = size - 1; i >= 0; i--) {
-        int index_bool = size - i - 1;
+    for (int i = 0; i<size; i++) {
+
+        //cout<<"the bit is "<<(int)character[i];
         c = c << 1;
-        if (character[index_bool])
-            c + 1;
+        if (character[i])
+            c=c+1;
+        //cout<<"\tc now is: "<<(int)c<<endl;
 
     }
+    //cout<<"\nthe char is: "<<c<<endl;
 
     return c;
 
@@ -89,12 +110,26 @@ int main(int argc, char *argv[]) {
         ofstream dest(argv[2], ios::binary);
         ifstream message(argv[3], ios::binary);
 
+
+
+
+
+
         //logic for inserting message in file
         string type;
         int width, length, c_size;
         src >> type >> width >> length >> c_size;
+
+        //test if the image is large enough
+        int bit_message = (getFileSize(argv[3])+1)*8;
+        if(width*length*3<bit_message){
+            cout<<"error: image is not large enough!!!";
+            return 1;
+        }
+
+        //cout<<"bit message is: "<<bit_message<<"\tpixel number: "<<width*length*3<<endl;
         //also write to the ofstream
-        dest << type << width << length << c_size;
+        dest << type<<endl << width<<" " << length<<endl<< c_size;
 
         //TODO calculate whether the image file is large enough to hide the message
         //find the size of message file(int bit)
@@ -132,7 +167,7 @@ int main(int argc, char *argv[]) {
                 convertToBinary(val, num, 8);
 
 
-                //cout<<"\nthe char read in is: "<<val;
+//                cout<<"\nthe char read in is: "<<val;
 //                cout<<"\tthe binary is: ";
 //                for(int i=0;i<8;i++)
 //                    cout<<num[i]<<" ";
@@ -163,8 +198,10 @@ int main(int argc, char *argv[]) {
                  * terminate sign input to the dest image
                  */
 
+            //cout<<"\nterminating message...\n";
             for (int i = 0; i < 8; i++) {
-                new_color = hide_binary(false, color);
+                new_color = hide_binary(0, color);
+                //cout<<"origin color is: "<<(int)color<<"\tcolor is: "<<(int)new_color<<endl;
                 dest.write(&new_color, sizeof(char));
             }
 
@@ -207,7 +244,7 @@ int main(int argc, char *argv[]) {
             }
 
             char val = convert_to_character(character, 8, src);
-            if (var == 0)
+            if (val == 0)
                 terminate = true;
 
             text_file.write(&val, sizeof(char));
